@@ -1,0 +1,10 @@
+GitHub Actions
+
+Análisis del propio código
+Análisis del externo
+IAC(Infraestructura como codigo)
+Continuos Integration
+continous deployment
+Continuos testing
+
+YAML
