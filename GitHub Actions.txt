@@ -1,5 +1,7 @@
 GitHub Actions
 
+https://docs.github.com/en/actions
+
 Análisis del propio código
 Análisis del externo
 IAC(Infraestructura como codigo)
@@ -8,3 +10,37 @@ continous deployment
 Continuos testing
 
 YAML
+.yml or yaml
+
+Actions: motro de flujos para hacer automatizaciones según el flujo
+Trigger: Disparan las actions, responde a un llamado para desencadenar el flujo
+Workflow: file in the reposirory (.github/workflows) .yaml
+  etiqueta (on:) trigger
+  one or multiple jobs
+  executd by a runner 
+  contains steps
+webhook
+schedule
+workflow_dispatch
+
+
+octokit: Libreria de las API's
+
+needs keyword para encadenar jobs
+
+Pendiente:
+Verify you other triggers by modifying the README.md file:
+
+Secciones reservadas
+GITHUB_OUTPUT
+GITHUB_ENV
+GITHUB_STEP_SUMMARY
+
+Linting
+github.com/github/super-linter
+
+Caching
+ptimazing the worflow performance
+
+Github Secrets store
+  LibSodium sealed box
